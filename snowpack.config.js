@@ -8,6 +8,7 @@ module.exports = {
     sourceMap: true,
   },
   buildOptions: {
+    out: 'dist',
     sourceMaps: true,
   },
 };

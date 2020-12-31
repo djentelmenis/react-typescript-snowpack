@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["/home/kp/Repos/if-snowpack/src/index.tsx"],
-  "sourcesContent": ["import * as React from 'react';\nimport * as ReactDOM from \"react-dom\";\n\nimport App from './App';\nimport \"./styles.scss\";\n\nvar mountNode = document.getElementById(\"app\");\nReactDOM.render(<App name=\"Jane\" />, mountNode);\n"],
-  "mappings": "AAAA;AACA;AAEA;AACA;AAEA,IAAI,YAAY,SAAS,eAAe;AACxC,SAAS,OAAO,oCAAC,MAAD;AAAA,EAAK,MAAK;AAAA,IAAW;",
-  "names": []
-}
