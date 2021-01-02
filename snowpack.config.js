@@ -1,14 +1,32 @@
+/** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    dist: '/',
-    src: '/',
+    public: '/',
+    src: '/dist',
   },
-  plugins: ['@snowpack/plugin-react-refresh', '@snowpack/plugin-sass'],
+  plugins: ['@snowpack/plugin-sass'],
+  install: [
+    /* ... */
+  ],
   installOptions: {
-    sourceMap: true,
+    /* ... */
+  },
+  devOptions: {
+    open: 'none',
   },
   buildOptions: {
-    out: 'dist',
     sourceMaps: true,
+  },
+  proxy: {
+    /* ... */
+  },
+  alias: {
+    /* ... */
+  },
+  experiments: {
+    optimize: {
+      bundle: true,
+      minify: true,
+    },
   },
 };
