@@ -13,6 +13,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "@if-design-system/bundle": "^8.1.2",
+    "@if-design-system/selection-controls": "^8.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "snowpack": "^3.0.0-rc.2"

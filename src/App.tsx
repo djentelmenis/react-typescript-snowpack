@@ -1,4 +1,5 @@
 import React from 'react';
+import Toggle from './components/Toggle';
 
 interface Props {
   name: string;
@@ -12,6 +13,7 @@ const App = (props: Props): JSX.Element => {
   return (
     <>
       <h1>Hello {name}!</h1>
+      <Toggle />
     </>
   );
 };
